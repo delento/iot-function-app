@@ -30,4 +30,4 @@ jobs:
         with:
           app-name: <YOUR-FUNCTION-APP-NAME>
           package: ./publish
-          publish-profile: ${{ secrets.FUNCAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
