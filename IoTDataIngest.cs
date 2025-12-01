@@ -1,8 +1,12 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Text.Json;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using MySqlConnector;
 using System.Net;
-using System.Text.Json;
 
 public class IoTDataIngest
 {
